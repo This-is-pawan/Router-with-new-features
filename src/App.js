@@ -1,6 +1,8 @@
 // import './App.css';
 
-import Userform from "./components/Userform";
+import FormDataApi from "./components/FormDataApi";
+
+
 
 
 
@@ -11,7 +13,7 @@ function App() {
     <div className="container">
       <h1>About React Component </h1>
  
-<Userform/>
+<FormDataApi/>
     </div>
   );
 }
