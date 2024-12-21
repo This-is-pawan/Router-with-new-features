@@ -1,6 +1,9 @@
 // import './App.css';
 
-import FormDataApi from "./components/FormDataApi";
+import UseReducer from "./components/UseReducer";
+import Userform from "./components/Userform";
+import UserItemadd from "./components/UserItemadd";
+
 
 
 
@@ -12,8 +15,9 @@ function App() {
   return (
     <div className="container">
       <h1>About React Component </h1>
- 
-<FormDataApi/>
+
+ <UserItemadd/>
+<UseReducer/>
     </div>
   );
 }
