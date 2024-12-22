@@ -17,64 +17,8 @@ a{
   font-size: 1.5rem;
   
 }
-.cont {
-  width: 100px;
-  text-transform: capitalize;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 2rem;
-  margin: 1rem auto;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-}
-.sidebarAlign {
-  margin-top: 1rem;
-  width: 200px;
-  background: rgb(6, 6, 50);
-  color: white;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-content: space-around;
-}
-.main {
-  box-shadow: 2px 2px 5px rgb(206, 201, 201);
-  max-width: 600px;
-  margin: auto;
-  padding: 1rem;
-  border-radius: 5px;
-}
-.align{
-  display: grid;
-  place-items: center;
-  padding: 1rem;
-  margin: 2rem 0;
-}
-.form{
-  box-shadow: 2px 2px 5px rgb(206, 201, 201);
-  width: 100%;
-  text-transform: capitalize;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 600px;
-  margin: auto;
-  padding: 1rem;
-  border-radius: 5px;
-}
-.icon{
-cursor: pointer;
-color:rgb(206, 160, 230);
-}
 
 
-.items{
-  /* border: 1px solid; */
 
-  width: 60vw;
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  align-items: center;
-}
+
+
