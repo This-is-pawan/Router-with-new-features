@@ -1,7 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
 
-// eslint-disable-next-line no-unused-vars
 import{About,HomeLayout,Error,Landing,Cocktail,NewsLetter} from './components/Pages/Index'
 
  const router=createBrowserRouter(
