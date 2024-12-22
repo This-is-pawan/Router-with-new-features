@@ -1,25 +1,34 @@
-// import './App.css';
-
-import UseReducer from "./components/UseReducer";
-import Userform from "./components/Userform";
-import UserItemadd from "./components/UserItemadd";
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
 
+// eslint-disable-next-line no-unused-vars
+import{About,HomeLayout,Error,Landing,Cocktail,NewsLetter} from './components/Pages/Index'
+
+ const router=createBrowserRouter(
+  [
+    {
+      path:"/",
+      element:<HomeLayout/>
+
+    },
+    {
+      path:"/About",
+      element:<About/>
+
+    },
+  ]
+ )
 
 
 
 
 
 
-function App() {
-  return (
-    <div className="container">
-      <h1>About React Component </h1>
+const App = () => {
+  
 
- <UserItemadd/>
-<UseReducer/>
-    </div>
-  );
+return <RouterProvider router={router}/>
+  
 }
 
-export default App;
+export default App

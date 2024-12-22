@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 
 const FormDataApi = () => {
+  // eslint-disable-next-line no-unused-vars
+  const [value,setvalue]=useState(0)
+  const refContainer=useRef(null)
+  console.log(refContainer);
+  
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    const formData = new FormData(e.currentTarget);
-    // eslint-disable-next-line no-unused-vars
-    const email = formData.get('password');
-    console.log([...formData.entries()]);
-e.target.reset()
-  };
+   const name=refContainer.current.value
+   console.log(name);
+   
+  }
 
   return (
     <>
@@ -24,6 +27,7 @@ e.target.reset()
               id="name"
               name="name"
               placeholder="Name"
+             ref={refContainer}
             />
           </div>
           <div className="mb-3">
