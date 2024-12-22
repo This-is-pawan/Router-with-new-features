@@ -1,4 +1,28 @@
+<<<<<<< HEAD
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+=======
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+
+
+import{About,HomeLayout,Error,Landing,Cocktail,NewsLetter} from './components/Pages/Index'
+
+ const router=createBrowserRouter(
+  [
+    {
+      path:"/",
+      element:<HomeLayout/>
+
+    },
+    {
+      path:"/About",
+      element:<About/>
+
+    },
+  ]
+ )
+
+
+>>>>>>> b5bc1d46559fc0fd3715d8aa84d2657e5ef8e1a3
 
 
 import {
@@ -50,4 +74,12 @@ const App = () => {
   return <RouterProvider router={router} />;
 };
 
+<<<<<<< HEAD
 export default App;
+=======
+return <RouterProvider router={router}/>
+  
+}
+
+export default App
+>>>>>>> b5bc1d46559fc0fd3715d8aa84d2657e5ef8e1a3
